@@ -265,9 +265,23 @@ Var(X) = \int_{-\infty}^{\infty} (x-E(X))^2 f(x) dx
 - 평균 근처에 값이 가장 많고, 평균에서 멀어질수록 적어짐
 - 키나 몸무게 등 정규분포로 근사할 수 있는 현상이 많음  
 <br>
-- ($\mu - \sigma$, $\mu + \sigma$) 에 값이 있을 확률 : 68%
-- ($\mu - 2\sigma$, $\mu + 2\sigma$) 에 값이 있을 확률 : 95%
-- ($\mu - 3\sigma$, $\mu + 3\sigma$) 에 값이 있을 확률 : 99.7%
+- 값이 ($\mu-\sigma$, $\mu+\sigma$) 범위에 있을 확률
+
+```math
+P(\mu-\sigma \le X \le \mu+\sigma) \approx 0.68
+```
+
+- 값이 ($\mu-2\sigma$, $\mu+2\sigma$) 범위에 있을 확률
+
+```math
+P(\mu-2\sigma \le X \le \mu+2\sigma) \approx 0.95
+```
+
+- 값이 ($\mu-3\sigma$, $\mu+3\sigma$) 범위에 있을 확률
+
+```math
+P(\mu-3\sigma \le X \le \mu+3\sigma) \approx 0.997
+```
 
 +) **표준정규분포** : 평균이 0, 표준편차 1인 정규분포  
 > ➕ &nbsp; **표준화**(standardizing, normalizing)  
